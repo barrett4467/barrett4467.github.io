@@ -105,6 +105,10 @@ img {
     opacity: 0.75;
     top: -55px;
 }
+.project {
+    top: -22px;
+    font-size: 4rem;
+}
 /* .project {
     float: left;
     margin: 20px auto;
