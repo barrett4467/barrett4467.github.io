@@ -121,3 +121,9 @@ img {
 
 /* font-family: 'Cinzel', serif;
 font-family: 'Philosopher', sans-serif; */
+
+@media (min-width: 240){
+    .header-links{
+        background-color: tomato;
+    }
+}
