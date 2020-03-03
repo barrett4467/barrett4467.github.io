@@ -1,27 +1,31 @@
-$("#portfolio").hide();
-$("#contact").hide();
+// $("#portfolio").hide();
+// $("#contact").hide();
 
-$("#portfolioTop").on("click", function(){
-    $("#portfolio").show();
-})
+// $("#portfolioTop").on("click", function(){
+//     $("#portfolio").show();
+// })
 
-$("#portfolioSec").on("click", function(){
-    $("#portfolio").show();
-})
+// $("#portfolioSec").on("click", function(){
+//     $("#portfolio").show();
+// })
 
-$("#contactTop").on("click", function(){
-    $("#contact").show();
-})
+// $("#contactTop").on("click", function(){
+//     $("#contact").show();
+// })
 
-$("#contactSec").on("click", function(){
-    $("#contact").show();
-})
+// $("#contactSec").on("click", function(){
+//     $("#contact").show();
+// })
 
 
-$("#portfolio-collapse").on("click", function(){
-    $("#portfolio").hide();
-})
+// $("#portfolio-collapse").on("click", function(){
+//     $("#portfolio").hide();
+// })
 
-$("#contact-collapse").on("click", function(){
-    $("#contact").hide();
-})
+// $("#contact-collapse").on("click", function(){
+//     $("#contact").hide();
+// })
+window.onresize = () => {
+    document.getElementById("name").className = "columns four";
+
+}
