@@ -1,78 +1,7 @@
-html {
-    background-image: url(../images/background.png);
+.port-element {
+    max-width: 150px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-
-.clearfix::after {
-    content: " ";
-    display: block;
-    clear: both;
-}
-
-a{
-    color: #222;
-    text-decoration: none;
-}
-a:hover, button:hover {
-    color: #ffac97;
-}
-header, footer {
-    font-family: 'Cinzel', serif;
-    display: block;
-    margin: 0 auto;
-    height: 5rem;
-    width: 80%;
-    background-color: #e5e5e5;
-    opacity: 0.75;
-}
-
-.content {
-    font-size: 20px;
-    display: block;
-    margin-top: 2rem;
-    padding: 2rem;
-    background-color: #e5e5e5;
-    opacity: 0.95;
-}
-.header-links {
-    font-size: 20px;
-    text-align: right;
-    float: right;
-    margin: 0.5rem;
-} 
-
-p {
-    text-indent: 2rem;
-}
-
-.project-links {
-    text-align: center;
-    font-family: 'Cinzel', serif;
-}
-.footer-links {
-    position: relative;
-    font-size: 25px;
-    margin-left: 8px;
-    top: -15px;
-}
-
-footer {
-    margin-top: 5rem;
-    width: 100%;
-    text-align: center;
-    padding: 4rem;
-
-}
-button {
-    text-transform: none;
-    font-family: 'Cinzel', serif;
-    font-weight: 500;
-}
 
 #face {
     float: left;
@@ -85,45 +14,4 @@ button {
 
 img {
     max-width: 100%;
-    float: left;
-}
-
-
-.label {
-    position: relative;
-    float: left;
-
-    font-family: 'Cinzel', serif;
-    font-size: 2rem;
-
-    text-align: center;
-    margin: 0 auto;
-    height: 5rem;
-    width: 100%;
-    /* these set the color and position of the label */
-    background-color: #e5e5e5;
-    opacity: 0.75;
-    top: -55px;
-}
-.project {
-    top: -22px;
-    font-size: 4rem;
-}
-/* .project {
-    float: left;
-    margin: 20px auto;
-    width: 50%;
-    padding-right: 7px;
-}
-.right{
-    padding-left: 7px;
-} */
-
-/* font-family: 'Cinzel', serif;
-font-family: 'Philosopher', sans-serif; */
-
-@media (min-width: 240){
-    .header-links{
-        background-color: tomato;
-    }
 }
