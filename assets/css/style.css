@@ -82,8 +82,7 @@ img {
     width: 50%;
     height: 50%;
     margin: auto;
-    background: url(../images/psychic.png);
-    background-size: cover;
+    
 }
 .port-hover {
     position: relative;
@@ -109,3 +108,4 @@ img {
 h2 {
     color: #393d3f;
 }
+
