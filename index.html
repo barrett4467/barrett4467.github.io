@@ -12,25 +12,30 @@
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Philosopher&display=swap" rel="stylesheet">
 
 </head>
+<div id="background">
+
 <nav>
-    <div id="main-content">
-        <h2 class="header-name">Rebecca Barrett</h2>
-    </div>
-    <div id="nav-links">
-        <a href="portfolio.html" class="header-links">Past Projects</a>
-        <a href="contact" class="header-links">Connect With Me </a>
+    <div id="nav">
+        <h2 id="header-name">Rebecca Barrett</h2>
+        <div id="nav-links">
+            <a href="#contact" class="header-links">Connect With Me </a>
+            <a href="#projects" class="header-links">Past Projects</a>
+        </div>
     </div>
 </nav>
 
-<body>
-    <div id="intro">
-        <h2>Hey there, I'm Becca</h2>
-        <p>It's nice to meet you!</p>
-        <img id="face" src="assets/images/face.jpg" alt='Picture of Me!'>
-        <p>I am a full-stack web developer from Southeastern Colorado currently living outside Greeley. I enjoy building
-            all kinds of websites and apps and love a good challenge. If you are a business looking to add or update
-            your online presence or an employer looking to hire you can contact me <a name="email-link"
-                href="mailto:barrettcode@gmail.com">here</a>.</p </div>
+<body id="main-content">
+    <div id="intro-container">
+        <div id="intro">
+            <h2>Hey there, I'm Becca</h2>
+            <p>It's nice to meet you!</p>
+            <img id="face" src="assets/images/face.jpg" alt='Picture of Me!'>
+            <p>I am a full-stack web developer from Southeastern Colorado currently living outside Greeley. I enjoy building
+                all kinds of websites and apps and love a good challenge. If you are a business looking to add or update
+                your online presence or an employer looking to hire you can contact me <a name="email-link"
+                    href="mailto:barrettcode@gmail.com">here</a>.</p>
+        </div>
+    </div>
         <div id="lang-table">
             <table>
                 <h3>Languages:</h3>
@@ -64,15 +69,20 @@
                 </tr>
             </table>
         </div>
+        <br></br>
         <div id="projects">
             <div class="port-element">
-                <img src="./assets/images/psychic.png" alt="psychic game">
-                <div class="label">
-                    <a target="_blank" href="https://barrett4467.github.io/Psychic-Game/"> Psychic Game</a>
-                    <a target="_blank" href="https://github.com/barrett4467/Psychic-Game">View the Code</a>
+                <div class="port-hover">
+                    <p>element</p>
+                    <!-- <img src="./assets/images/psychic.png" alt="psychic game"> --> 
+                    <div class="label">
+                        <a target="_blank" href="https://barrett4467.github.io/Psychic-Game/"> Psychic Game</a>
+                        <a target="_blank" href="https://github.com/barrett4467/Psychic-Game">View the Code</a>
+                    </div> 
                 </div>
             </div>
-            <div class="port-element">
+
+            <!-- <div class="port-element">
                 <img src="./assets/images/crystal-collector.png" alt="crystal collector">
                 <div class="label">
                     <a target="_blank" href="https://barrett4467.github.io/Crystal-Collector/"> Crystal Collector</a>
@@ -169,19 +179,26 @@
         <div class="label">
             <a target="_blank" href="https://lit-crag-22298.herokuapp.com/">Zombies Need Brains</a>
             <a target="_blank" href="https://github.com/barrett4467/Zombies-Need-Brains">View the Code</a>
+        </div> -->
         </div>
     <div id="contact">
-        <h4 id="contact">Connect with Me</h4>
+        <h4>Connect with Me</h4>
         <a href="mailto:barrettcode@gmail.com">barrettcode@gmail.com</a>
         <a target="_blank" href="https://github.com/barrett4467">GitHub</a>
         <a target="_blank" href="https://www.linkedin.com/in/rebecca-barrett-aa10a8164/">LinkedIn</a>
         <a target="_blank"
             href="https://docs.google.com/document/d/16-pDf9a5rrbytKECvQ8brXvbEPT7otFePI7x1ATzdDo/edit?usp=sharing">Resume</a>
-        <a href="#nav-links">Top of Page</>
+        <a href="#nav-links">Top of Page</a>
     </div>
+    </div>
+    <div id="footer">
+        <h1>footer goes here</h1>
     </div>
 
     <script type="text/javascript" src="assets/js/app.js"></script>
+
 </body>
+    
+</div>
 
 </html>
