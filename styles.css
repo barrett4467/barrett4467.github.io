@@ -1,0 +1,157 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: url("https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  text-align: center;
+}
+a {
+  color: #edede6;
+  text-decoration: none;
+}
+a:hover {
+  color: #ae0001;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+/* NavBar */
+nav {
+  display: inline-block;
+  text-align: ter;
+  width: 100%;
+}
+
+.navbar-brand {
+  float: left;
+  font-family: "Bad Script", cursive;
+  font-size: 5rem;
+  color: black;
+}
+.nav-item a {
+  color: black;
+}
+
+li {
+  float: right;
+  list-style-type: none;
+  margin: 2px;
+  font-size: 1.5rem;
+  padding: 3px;
+}
+
+/* End of Navbar */
+
+/*Call to Action Section  */
+.action-container {
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 4rem;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+.call-action {
+  color: #edede6;
+  opacity: 1;
+  padding: 20px;
+  font-size: 2rem;
+  font-family: "Titillium Web", sans-serif;
+  letter-spacing: 0.15rem;
+}
+
+#intro {
+  font-family: "Bad Script", cursive;
+  letter-spacing: 1rem;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+#contact-link {
+  color: #740001;
+}
+#contact-link:hover {
+  color: #ae0001;
+}
+/*End of Call to Action Section  */
+
+/* Project Section*/
+#projects {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.flip-card {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+  letter-spacing: 2px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+  letter-spacing: 2px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-image {
+  width: 25px;
+  height: 100%;
+}
+/*End of  Project styling  */
+/*Footer  */
+#footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  height: 2.5rem;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+}
+
+.footer-links {
+  display: inline-block;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+/*End of Footer  */
