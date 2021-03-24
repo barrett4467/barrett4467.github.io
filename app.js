@@ -2,7 +2,7 @@ let projects = [
   {
     title: "Psychic-Game",
     description: "",
-    image: "href=./assets/psychic-game.png",
+    image: "href='./assets/psychic-game.png'",
     example_link: "href='https://barrett4467.github.io/Psychic-Game/'",
     code_link: "href='https://github.com/barrett4467/Psychic-Game'"
   },
