@@ -16,7 +16,7 @@ let projects = [
   {
     title: "Trivia-Game",
     description: "",
-    image: "href=./assets/trivia-game.png,
+    image: "href=./assets/trivia-game.png",
     example_link: "href='https://barrett4467.github.io/Trivia-Game/'",
     code_link: "href='https://github.com/barrett4467/Trivia-Game/'"
   },
