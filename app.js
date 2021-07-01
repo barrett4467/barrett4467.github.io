@@ -2,35 +2,35 @@ let projects = [
   {
     title: "Psychic-Game",
     description: "",
-    image: "href='./assets/psychic-game.png'",
+    image: "./assets/images/psychic-game.png",
     example_link: "href='https://barrett4467.github.io/Psychic-Game/'",
     code_link: "href='https://github.com/barrett4467/Psychic-Game'"
   },
   {
     title: "Crystal-Collector",
     description: "",
-    image: "href=./assets/crystal-collector.png",
+    image: "./assets/images/crystal-collector.png",
     example_link: "href='https://barrett4467.github.io/Crystal-Collector/'",
     code_link: "href='https://github.com/barrett4467/Crystal-Collector/'"
   },
   {
     title: "Trivia-Game",
     description: "",
-    image: "href=./assets/trivia-game.png",
+    image: "./assets/images/trivia-game.png",
     example_link: "href='https://barrett4467.github.io/Trivia-Game/'",
     code_link: "href='https://github.com/barrett4467/Trivia-Game/'"
   },
   {
     title: "Gif-Tastic",
     description: "",
-    image: "href=./assets/gif-tastic.png",
+    image: "./assets/images/gif-tastic.png",
     example_link: "href='https://barrett4467.github.io/Gif-Tastic/'",
     code_link: "href='https://github.com/barrett4467/Gif-Tastic/'"
   },
   {
     title: "Train-Tracker",
     description: "",
-    image: "href=./assets/train-tracker.png",
+    image: "./assets/images/train-tracker.png",
     example_link: "href='https://barrett4467.github.io/Train-Tracker/'",
     code_link: "href='https://github.com/barrett4467/Train-Tracker'"
   }
@@ -38,6 +38,7 @@ let projects = [
 
 function displayProjects() {
   projects.forEach((project) => {
+
     const targetDiv = document.querySelector("#projects");
 
     targetDiv.innerHTML += `
