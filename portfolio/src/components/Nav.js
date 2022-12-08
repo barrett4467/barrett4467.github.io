@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+const Navbar = styled.div`
+ 
+`
 const StyledUl = styled.ul`
     display: flex;
     justify-content: space-between;
@@ -22,27 +25,35 @@ const StyledLink = styled.a`
 `
 const Name = styled(StyledLink)`
     font-size: 2em;
-    font: bold 120 Poppins, sans-serif;
-    
+    font-weight: bold;
+    background: linear-gradient(to right, ${props => props.theme.accentColor}, ${props => props.theme.accentColor2});
+    // magic bits that make the background of the text transparent
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
 `
+
 function Nav () {
     return (
-        <>
+        <Navbar>
             <StyledUl>
                 <StyledLi>
-                    <Name href="/">Becca</Name>
+                    <Name href="/">Becca Brisby</Name>
                 </StyledLi>
                 <StyledLi>
                     <StyledLink href="/">Home</StyledLink>
                 </StyledLi>
                 <StyledLi>
-                    <StyledLink href="/">Portfolio</StyledLink>
+                    <StyledLink href="/portfolio">Portfolio</StyledLink>
                 </StyledLi>
                 <StyledLi>
-                    <StyledLink href="/">Contact</StyledLink>
+                    <StyledLink href="/about">About</StyledLink>
+                </StyledLi>
+                <StyledLi>
+                    <StyledLink href="/contact">Contact</StyledLink>
                 </StyledLi>
             </StyledUl>
-        </>
+        </Navbar>
     )
 }
 export default Nav;

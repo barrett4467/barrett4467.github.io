@@ -5,6 +5,10 @@ import { ThemeProvider, createGlobalStyle } from "styled-components";
 
 
 import Home from "./components/Home";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import About from "./components/About";
+
 const GlobalStyle = createGlobalStyle`
   body{
     margin: 0 auto;
@@ -19,9 +23,9 @@ const App = () => {
   //sets up theme for css
   const theme = {
     mainColor: "white",
-    accentColor: "#a3b18a",
+    accentColor: "#bc4749",
+    accentColor2: "#f48c06",
     backgroundColor: "black"
-    // rest of theme colors a3b18a, 3a5a40, 344e41, dad7cd, 344e41
   }
   //changes tab title
   useEffect(() => {
@@ -34,6 +38,8 @@ const App = () => {
       <GlobalStyle />
         <Routes>
           <Route path="/" element={<Home />}/>
+          <Route path="/portfolio" element={<Portfolio />}/>
+          <Route path="/contact" element={<Contact />}/>
         </Routes>
 
       </BrowserRouter>
