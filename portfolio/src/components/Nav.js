@@ -30,6 +30,11 @@ const Name = styled(StyledLink)`
     // magic bits that make the background of the text transparent
     -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+    &:hover {
+        background: linear-gradient(to left, ${props => props.theme.accentColor}, ${props => props.theme.accentColor2});  
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
 `
 
