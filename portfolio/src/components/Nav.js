@@ -52,7 +52,7 @@ function Nav () {
                     <StyledLink href="/portfolio">Portfolio</StyledLink>
                 </StyledLi>
                 <StyledLi>
-                    <StyledLink href="/about">About</StyledLink>
+                    <StyledLink href="/home">About</StyledLink>
                 </StyledLi>
                 <StyledLi>
                     <StyledLink href="/contact">Contact</StyledLink>

@@ -7,12 +7,20 @@ const bounceAnimation = keyframes`${bounce}`;
 const FrontOfCard = styled.div`
     padding: 2%;
     margin: 1%;
-    width: 150px;
-    height: 150px;
+    width: 100%;
     background: linear-gradient(to right, ${props => props.theme.accentColor}, ${props => props.theme.accentColor2});
     &:hover{
         animation: 1s ${bounceAnimation};
     };
+`
+const Banner = styled.div`
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to right, ${props => props.theme.accentColor}, ${props => props.theme.accentColor2});
+`
+const Photo = styled.img`
+    width: 150px;
+    height: 150px;
 `
 const BackOfCard = styled.div`
     width: 150px;
@@ -45,8 +53,11 @@ class Card extends React.Component {
         return(
             <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
                 <FrontOfCard onClick={this.handleClick}>
-                    <p>{this.props.project.name}</p>
-                    <p>{this.props.project.type}</p>
+                    <Banner>
+                        <p>{this.props.project.name}</p>
+                        <p>{this.props.project.type}</p>
+                    </Banner>
+                    <Photo src={this.props.project.photo} alt={this.props.project.name}/>
                 </FrontOfCard>
                 <BackOfCard onClick={this.handleClick}>
                     <div>

@@ -17,7 +17,6 @@ function Portfolio() {
         
         <>
             <Nav />
-            <h1>Portfolio</h1>
             <Container>
                 {projects.map(project => (
                     <Card key= {project.name} project={project} />
